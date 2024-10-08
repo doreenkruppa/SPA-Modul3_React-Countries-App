@@ -1,11 +1,11 @@
 import "./App.css";
-import { Route, Routes, Link } from "react-router-dom";
-import AllCountries from "./components/views/AllCountries";
-import ByRegion from "./components/views/ByRegion";
-import ByName from "./components/views/ByName";
+import { Route, Routes } from "react-router-dom";
+import AllCountries from "./views/AllCountries";
+import ByRegion from "./views/ByRegion";
+import ByName from "./views/ByName";
 import Header from "./components/Header";
 import NotFound from "./components/NotFound";
-import OneCountry from "./components/views/OneCountry";
+import OneCountry from "./views/OneCountry";
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
         <Route path="/byregion" element={<ByRegion />} />
         <Route path="/byname" element={<ByName />} />
         <Route path="/*" element={<NotFound />} />
-        <Route path="/country/:code" element={<OneCountry />} />
+        <Route path="/OneCountry/:code" element={<OneCountry />} />
       </Routes>
     </div>
   );

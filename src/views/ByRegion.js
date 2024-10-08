@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import CountryCard from "../CountryCard";
+import CountryCard from "../components/CountryCard";
 
 export default function ByRegion() {
   const [region, setRegion] = useState("Africa");
