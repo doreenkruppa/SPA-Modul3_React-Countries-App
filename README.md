@@ -6,7 +6,7 @@ created at 20.3.23;
 
 Created a responsive React App using different Components with props, React-Router, fetch, React-Hooks, useParams, EventHandler etc....;
 
-The App fetchs and shows all countries with some facts of each country, countries filtered by region and also has a search-function, showing the single country you typed in. When you click on one country-card on the pages with overviews of "all countries" or "countries by region" it will show you the selected [single country](./assets/my_version_single_country.png).
+The App fetchs and shows all countries with some facts of each country, countries filtered by region and also has a search-function, showing the single country you typed in. When you click on one country-card on the pages with overviews of "all countries" or "countries by region" it will show you the selected single country.
 
 oriented to the Mockups;
 
